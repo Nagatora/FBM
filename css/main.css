@@ -26,12 +26,11 @@ nav {
       justify-content: space-around; }
       nav ul li {
         width: 20%;
-        height: 20vh; }
+        height: 10vh; }
         nav ul li a {
           height: 100%;
           align-items: center;
-          font-size: medium;
-          font-size: 2vw; } }
+          font-size: 1.5vw; } }
 
 .navitem:hover {
   border-bottom: 8px solid;
@@ -48,12 +47,33 @@ nav {
       justify-content: space-around; }
       nav ul li {
         width: 20%;
-        height: 30vh; }
+        height: 20vh; }
         nav ul li a {
           height: 100%;
           align-items: center;
           font-size: medium;
           font-size: 2vw; } }
 
+footer {
+  height: 10vh;
+  background-color: #a60735; }
+  footer ul {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    footer ul li {
+      width: 33%;
+      color: black;
+      font-family: 'Allerta Stencil', sans-serif; }
+      footer ul li a {
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+
 main {
-  background-color: #ff7b00; }
+  background-color: black; }

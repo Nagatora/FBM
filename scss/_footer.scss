@@ -1,0 +1,24 @@
+footer{
+        height: 10vh;
+        background-color: $colorRojo;
+        ul{
+            height: 100%;
+            margin: 0%;
+            padding: 0%;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            li{
+                width: 33%;
+                color: black;
+                font-family: 'Allerta Stencil', sans-serif;
+                a{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+}
