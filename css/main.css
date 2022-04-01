@@ -1,4 +1,5 @@
 nav {
+  height: 400px;
   width: 100%;
   background-color: #a60735; }
   nav ul {
@@ -11,13 +12,14 @@ nav {
         display: flex;
         justify-content: center;
         text-decoration: none;
-        color: #ffffff;
+        color: black;
         font-family: 'Allerta Stencil', sans-serif;
         font-size: 10vw; }
 
 /*Responsive <576*/
 @media only screen and (min-width: 576px) {
   nav {
+    height: 57px;
     background-color: #a60735; }
     nav ul {
       margin: 0%;
@@ -55,8 +57,8 @@ nav {
           font-size: 2vw; } }
 
 footer {
-  height: 10vh;
-  background-color: #a60735; }
+  height: 15vh;
+  background-color: black; }
   footer ul {
     height: 100%;
     margin: 0%;
@@ -68,12 +70,19 @@ footer {
     align-items: center; }
     footer ul li {
       width: 33%;
-      color: black;
+      color: white;
       font-family: 'Allerta Stencil', sans-serif; }
       footer ul li a {
         width: 100%;
         display: flex;
         justify-content: center; }
 
+/*Responsive <576*/
+@media only screen and (min-width: 576px) {
+  footer {
+    height: 10vh; }
+  .textoFooter {
+    padding-left: 10%; } }
+
 main {
-  background-color: black; }
+  background: linear-gradient(to bottom, #a60735, black); }

@@ -1,6 +1,6 @@
 footer{
-        height: 10vh;
-        background-color: $colorRojo;
+        height: 15vh;
+        background-color: $colorFooter;
         ul{
             height: 100%;
             margin: 0%;
@@ -12,7 +12,7 @@ footer{
             align-items: center;
             li{
                 width: 33%;
-                color: black;
+                color: white;
                 font-family: 'Allerta Stencil', sans-serif;
                 a{
                     width: 100%;
@@ -22,3 +22,14 @@ footer{
             }
         }
 }
+/*Responsive <576*/
+@media only screen and (min-width: 576px){
+    footer{
+        height: 10vh;
+    }
+.textoFooter{
+    padding-left:10%;
+    }
+
+}
+
