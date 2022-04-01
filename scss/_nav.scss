@@ -1,4 +1,5 @@
 nav{
+    height: 400px;
     width:100%;
     background-color: $colorRojo;
     ul{
@@ -11,7 +12,7 @@ nav{
                 display:flex;
                 justify-content:center;
                 text-decoration: none;  
-                color: $colorTexto; 
+                color: $colorTextoNav; 
                 font-family: 'Allerta Stencil', sans-serif;
                 font-size: 10vw;           
             }
@@ -21,6 +22,7 @@ nav{
 /*Responsive <576*/
 @media only screen and (min-width: 576px){
     nav{
+        height: 57px;
         background-color: $colorRojo;
         ul{
             margin: 0%;
@@ -38,11 +40,13 @@ nav{
             }
         }        
     }
+    
 }
 .navitem:hover{
     border-bottom: 8px solid;
     color: rgb(255, 123, 0);
 }
+
 /*Responsive <1420*/
 @media only screen and (min-width: 1420px){
     nav{
