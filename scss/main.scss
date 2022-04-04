@@ -3,5 +3,7 @@
 @import "nav.scss";
 @import "footer.scss";
 
-
-main{background-color: rgb(255, 123, 0);}
+main{
+   
+    background: linear-gradient(to bottom, $colorRojo, $colorFooter);
+}
