@@ -86,3 +86,12 @@ footer {
 
 main {
   background: linear-gradient(to bottom, #a60735, black); }
+
+.centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*Responsive <576*/
+.marginMain {
+  margin-top: 15px; }
