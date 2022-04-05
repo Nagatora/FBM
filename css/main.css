@@ -84,6 +84,22 @@ footer {
   .textoFooter {
     padding-left: 10%; } }
 
+.imgConfig {
+  width: 275px; }
+
+/*Responsive <576*/
+@media only screen and (min-width: 576px) {
+  .mainProductos {
+    display: flex;
+    align-items: center;
+    height: 960px; }
+  .imgConfig {
+    width: 25vw;
+    height: 50vh; } }
+
+.imgConfigProduccion {
+  width: 50vw; }
+
 main {
   background: linear-gradient(to bottom, #a60735, black); }
 
