@@ -4,7 +4,17 @@
 @import "footer.scss";
 
 main{
-   
+
     background: linear-gradient(to bottom, $colorRojo, $colorFooter);
+}
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Responsive <576*/
+
+.marginMain{
+    margin-top:15px;
 }
 
