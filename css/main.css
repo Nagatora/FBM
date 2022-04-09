@@ -91,11 +91,9 @@ footer {
 @media only screen and (min-width: 576px) {
   .mainProductos {
     display: flex;
-    align-items: center;
-    height: 960px; }
+    align-items: center; }
   .imgConfig {
-    width: 25vw;
-    height: 50vh; } }
+    width: 25vw; } }
 
 .imgConfigProduccion {
   width: 50vw; }
