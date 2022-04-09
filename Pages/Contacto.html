@@ -24,33 +24,33 @@
         
     </header>
     <main>
-        <div class="text-white d-flex align-items-center justify-content-around p-5 ">
+        <div class="text-white d-flex flex-column align-items-center justify-content-around p-5 ">
             <h2 class="titulocontacto h1">
                 Deja tu comentario 
             </h2>
                 <Form class="formcontacto m-5 border border-3 p-5">
-                    <div class="nomcont">    
+                    <div class="nomcont" style="display:flex;justify-content:space-around">    
                         <label for="Nombre">
                             Ingrese su Nombre
                         </label>    
                         <input type="text" placeholder="Ingresa tu Nombre" id="Nombre"><br>
                     </div>   
-                    <div class="emailcont"> 
+                    <div class="emailcont" style="display:flex;justify-content:space-around"> 
                         <label for="Email">Ingresa tu Email</label>
                         <input type="Email" placeholder="Ingresa tu Email" id="Email"><br>
                     </div>   
-                    <div class="edadcont"> 
-                        <p>Sos mayor de 18?</p>
+                    <div class="edadcont" style="display:flex;justify-content:space-around"> 
+                        <p style="display:inline-block;">Sos mayor de 18?</p>
                         <select name="" id="">
                             <option value="Si">Si</option>
                             <option value="No">No</option>
                         </select><br>
                     </div>
                     <div class="comentariocontacto">
-                        <h6>
-                            Deja tu comentario aqui:
+                        <h6 style="text-align: center ;">
+                            Deja tu comentario:
                         </h6>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Comentario..."></textarea>
+                        <textarea name="" id="" cols="40" rows="5" placeholder="Comentario..."></textarea>
                     </div>
                     <div class="">
                         <button type="button" class="btn btn-primary">Enviar</button>
@@ -58,6 +58,8 @@
                         
 
                 </Form>
+                <h3>Donde encontrarnos...</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6697.24918055592!2d-60.683929028540874!3d-32.93451545298872!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1649514389662!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
         </div>
